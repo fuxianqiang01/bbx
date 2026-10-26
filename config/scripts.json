@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-27",
+  "observation": {
+    "date": "2026-10-26",
+    "source": "用户提供的 UU 远程显示屏 1 篡改猴列表截图",
+    "scope": "仅确认安装版本和扩展开关；未读取远端源码，未验证运行结果"
+  },
+  "scripts": [
+    {
+      "id": "gps51-bridge",
+      "name": "gps51 定位桥",
+      "observedInstalledVersion": "1.1.3",
+      "observedExtensionEnabled": true,
+      "source": null,
+      "version": null,
+      "sha256": null,
+      "status": "awaiting-export",
+      "localCandidate": "patched/gps51bridge.v1.1.3.bak.user.js",
+      "localCandidateVersion": "1.1.3"
+    },
+    {
+      "id": "vip-auto-price",
+      "name": "VIP客户-自动改价",
+      "observedInstalledVersion": "1.9.1",
+      "observedExtensionEnabled": true,
+      "source": null,
+      "version": null,
+      "sha256": null,
+      "status": "awaiting-export",
+      "localCandidate": "patched/bbx_vip_auto_price.user.js",
+      "localCandidateVersion": "1.8.7"
+    },
+    {
+      "id": "roster-notify",
+      "name": "城际调度中心-专车排班变更通知",
+      "observedInstalledVersion": "1.5.1",
+      "observedExtensionEnabled": true,
+      "source": null,
+      "version": null,
+      "sha256": null,
+      "status": "awaiting-export",
+      "localCandidate": null,
+      "localCandidateVersion": null
+    },
+    {
+      "id": "order-center-remark",
+      "name": "城际调度中心-备注快捷修改",
+      "observedInstalledVersion": "1.16.4",
+      "observedExtensionEnabled": true,
+      "source": null,
+      "version": null,
+      "sha256": null,
+      "status": "awaiting-export",
+      "localCandidate": "patched/bbx_orderCenter_remark.user.js",
+      "localCandidateVersion": "1.16.4"
+    },
+    {
+      "id": "auto-dispatch",
+      "name": "城际调度中心-早班自动派单",
+      "observedInstalledVersion": "1.21.3",
+      "observedExtensionEnabled": true,
+      "source": null,
+      "version": null,
+      "sha256": null,
+      "status": "awaiting-export",
+      "localCandidate": "patched/bbx_orderCenter_autoDispatch.user.js",
+      "localCandidateVersion": "1.21.5"
+    },
+    {
+      "id": "flow-map",
+      "name": "客户来电-流水·订单情况面板",
+      "observedInstalledVersion": "1.9.45",
+      "observedExtensionEnabled": true,
+      "source": null,
+      "version": null,
+      "sha256": null,
+      "status": "awaiting-export",
+      "localCandidate": "outputs/bbx_flow_orderboard_v1.9.29.user.js",
+      "localCandidateVersion": "1.9.29"
+    },
+    {
+      "id": "auto-call-query",
+      "name": "客户来电-自动查询+拨号(蓝牙电话宝)",
+      "observedInstalledVersion": "1.9.0",
+      "observedExtensionEnabled": true,
+      "source": null,
+      "version": null,
+      "sha256": null,
+      "status": "awaiting-export",
+      "localCandidate": "outputs/bbx_auto_call_query_v1.9.0.user.js",
+      "localCandidateVersion": "1.9.0"
+    },
+    {
+      "id": "new-order-fetch",
+      "name": "帮邦行-新单提醒取数（独立脚本）",
+      "observedInstalledVersion": "1.6.0",
+      "observedExtensionEnabled": true,
+      "source": null,
+      "version": null,
+      "sha256": null,
+      "status": "awaiting-export",
+      "localCandidate": null,
+      "localCandidateVersion": null
+    },
+    {
+      "id": "order-manage-enhance",
+      "name": "订单管理-快捷增强",
+      "observedInstalledVersion": "1.2.7",
+      "observedExtensionEnabled": true,
+      "source": null,
+      "version": null,
+      "sha256": null,
+      "status": "awaiting-export",
+      "localCandidate": "patched/bbx_orderManage_enhance.user.js",
+      "localCandidateVersion": "1.2.7"
+    }
+  ]
+}

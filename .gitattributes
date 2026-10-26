@@ -1,0 +1,7 @@
+# Preserve userscript bytes: historical checks depend on CRLF and hashes.
+* -text
+*.md text eol=lf
+*.json text eol=lf
+*.cjs text eol=lf
+*.sh text eol=lf
+*.bat -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

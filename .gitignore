@@ -1,0 +1,37 @@
+# Private runtime state and browser profiles
+.edge-debug/
+.local-tools/
+.local/
+private/
+artifacts/
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+*.out
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.mp4
+*.zip
+*.csv
+*.har
+*.pem
+*.key
+
+# Raw Tampermonkey exports may contain runtime storage; review before import.
+/imports/**
+!/imports/README.md
+
+# Existing legacy material remains local until reviewed for customer data.
+# New reviewed sources will be imported into scripts/ and tracked there.
+/outputs/
+/patched/**
+!/patched/_targets.js
+!/patched/_run_all_tests.js
+!/patched/_recon_util.js
+!/patched/_pjs.js
+/_test_*.js
