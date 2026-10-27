@@ -4,7 +4,8 @@
 
 ## 当前状态
 
-- 已初始化本地 main 仓库；尚无远程仓库，尚不能自动多端同步。
+- 已初始化本地 main 仓库；用户已指定统一远程仓库 https://github.com/fuxianqiang01/bbx.git，配置为 origin。
+- 首次连接时只读核对远程为空。main 推送后，其他设备可 clone；同步通过 Git pull/push 完成，不会自动更新篡改猴安装副本。
 - 首次提交用于记录协作规则、浏览器工具、测试基础设施和安装版本登记，**不是远端最新版源码发布**。
 - 全部 9 个远端脚本待用户导出，见 config/scripts.json。source/version/sha256 为空表示未接收审核，不能作为可发布版本。
 - 当前 outputs/、patched/ 内有历史快照、客户取证及含真实样例的代码，保留在原处但默认不提交。根目录旧专项同样待审。这意味着其他设备暂时不能从首个提交还原完整运行环境。
@@ -75,16 +76,16 @@ git commit -m "说明具体行为变化和原因"
 
 ## 建立远程仓库后
 
-由用户提供仓库地址。先确认该地址和现有内容，再配置 origin；不得推送到示例地址或覆盖不相关仓库。
+统一仓库地址为 https://github.com/fuxianqiang01/bbx.git；origin 已配置。更换地址前必须由用户指定，不得覆盖不相关仓库。
 
 空仓库首次连接：
 
 ~~~bash
-git remote add origin <用户确认的仓库地址>
+git remote add origin https://github.com/fuxianqiang01/bbx.git
 git push -u origin main
 ~~~
 
-其他设备使用 git clone <同一仓库地址>，以后开发前 fetch/pull，完成后提交并推送。同一任务避免在多台设备同时修改同一分支。远程已有提交时先核对历史，不 force push。
+其他设备使用 git clone https://github.com/fuxianqiang01/bbx.git，以后开发前 fetch/pull，完成后提交并推送。同一任务避免在多台设备同时修改同一分支。远程已有提交时先核对历史，不 force push。
 
 ## 当前环境工具
 
